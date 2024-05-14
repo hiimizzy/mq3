@@ -4,11 +4,11 @@
    font-family: Arial, Helvetica, sans-serif; 
 }
 body, html{
-    background-color: lightgray;
+    background-color: rgb(23, 94, 28);
 }
 
 header{
-    background-color: aliceblue;
+    background-color: rgba(147, 226, 184, 0.945);
 }
 
 header > h1{
@@ -28,13 +28,13 @@ menu > ul > li > a {
     display: block;
     padding: 10px;
     text-decoration: none;
-    background-color: rgba(128, 128, 128, 0.644);
+    background-color: rgba(24, 78, 8, 0.644);
     color: white;
-    border-top: 2px solid gray;
+    border-top: 2px solid rgb(19, 73, 32);
 }
 
 menu > ul > li > a:hover{
-    background-color: gray;
+    background-color: rgba(0, 128, 0, 0.438);
 }
 
 main{
