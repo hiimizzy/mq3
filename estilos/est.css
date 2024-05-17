@@ -9,6 +9,7 @@ body, html{
 
 header{
     background-color: rgba(147, 226, 184, 0.945);
+    margin: 5px;
 }
 
 header > h1{
@@ -17,7 +18,7 @@ header > h1{
 }
 
 menu{
-    display: block;
+    display: none;
 }
 
 menu > ul {
@@ -37,6 +38,19 @@ menu > ul > li > a:hover{
     background-color: rgba(0, 128, 0, 0.438);
 }
 
+i#burguer{
+    background-color: darkgreen;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+i#burguer:hover{
+    background-color: white;
+    color: darkgreen;
+}
+
 main{
     width: 90vw;
     background-color: white;
@@ -45,11 +59,11 @@ main{
     border-radius: 10px;
 }
  article > h2{
-    padding-bottom: 20px;
+    padding-bottom: 10px;
  }
 
  article > p{
-    text-align: justufy;
+    text-align: justify;
     margin-bottom: 20px;
     text-indent: 20px;
  } 
