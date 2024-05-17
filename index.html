@@ -6,8 +6,10 @@
     <title>exercicio</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/est.css">
+    <link rel="shortcut icon" href="totoro.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/mediaqueries.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu site</h1>
         <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
@@ -30,6 +32,15 @@
         </article>
     </main>
     <script>
+
+        function mudouTamanho(){
+            if (window.innerWidth >= 768) {
+                item.style.display = 'block'
+            } else{
+                item.style.display = 'none'
+            }
+        }
+
         function clickMenu(){
             if (item.style.display == 'block'){
                 item.style.display = 'none'

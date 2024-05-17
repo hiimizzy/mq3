@@ -4,7 +4,7 @@
    font-family: Arial, Helvetica, sans-serif; 
 }
 body, html{
-    background-color: rgb(23, 94, 28);
+    background-color: rgba(23, 94, 28, 0.815);
 }
 
 header{
@@ -19,6 +19,7 @@ header > h1{
 
 menu{
     display: none;
+    text-align: center;
 }
 
 menu > ul {
@@ -44,6 +45,7 @@ i#burguer{
     display: block;
     text-align: center;
     padding: 10px;
+    cursor: pointer;
 }
 
 i#burguer:hover{
